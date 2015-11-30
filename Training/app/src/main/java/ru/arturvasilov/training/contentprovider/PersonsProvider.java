@@ -52,7 +52,7 @@ public class PersonsProvider {
 
     @NonNull
     public static List<Person> listFromCursor(@NonNull Cursor cursor) {
-        List<Person> airports = new ArrayList<>();
+        List<Person> persons = new ArrayList<>();
         if (!cursor.moveToFirst()) {
             return airports;
         }
